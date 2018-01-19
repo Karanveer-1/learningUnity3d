@@ -33,7 +33,7 @@ public class BallController : MonoBehaviour {
 		if (!Physics.Raycast (transform.position, Vector3.down, 1f)) {
 			gameOver = true;
 			rigidBodyOfBall.velocity = new Vector3(0, -25f, 0);
-			Camera.main.GetComponent<CameraController>().gameOver = true;
+			Camera.main.GetComponent<CameraFollow>().gameOver = true;
 		}
 
 		if (Input.GetMouseButtonDown(0)  && !gameOver) {
