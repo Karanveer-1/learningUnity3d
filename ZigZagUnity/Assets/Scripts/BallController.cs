@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class BallController : MonoBehaviour {
 
+	public GameObject particle;
 	[SerializeField]
 	private float speed;
 	private Rigidbody rigidBodyOfBall;
@@ -47,6 +48,13 @@ public class BallController : MonoBehaviour {
 		} else {
 			rigidBodyOfBall.velocity = new Vector3(0,0,speed);
 		}
+	}
 
+	void OnTriggerEnter (Collider col) {
+		if (col.gameObject.tag == "Diamind") {
+			GameObject part = Instantiate(particle,col.gameObject.transform.position,Quaternion.identity);
+			Destroy(part, 1f);
+			Destroy(col.gameObject);
+		}
 	}
 }
