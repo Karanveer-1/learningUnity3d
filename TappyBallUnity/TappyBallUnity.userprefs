@@ -1,0 +1,14 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PipeContoller.cs">
+    <Files>
+      <File FileName="Assets\Scripts\BallController.cs" Line="25" Column="32" />
+      <File FileName="Assets\Scripts\PipeContoller.cs" Line="34" Column="24" />
+      <File FileName="Assets\PipeSpawner.cs" Line="30" Column="107" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
