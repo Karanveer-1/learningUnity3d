@@ -1,10 +1,13 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PipeContoller.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\BallController.cs">
     <Files>
-      <File FileName="Assets\Scripts\BallController.cs" Line="25" Column="32" />
-      <File FileName="Assets\Scripts\PipeContoller.cs" Line="34" Column="24" />
-      <File FileName="Assets\PipeSpawner.cs" Line="30" Column="107" />
+      <File FileName="Assets\Scripts\UIManager.cs" Line="30" Column="3" />
+      <File FileName="Assets\Scripts\BallController.cs" Line="41" Column="31" />
+      <File FileName="Assets\Scripts\Pipe.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PipeSpawner.cs" Line="12" Column="17" />
+      <File FileName="Assets\GameManager.cs" Line="31" Column="34" />
+      <File FileName="Assets\Scripts\ScoreManager.cs" Line="34" Column="15" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
